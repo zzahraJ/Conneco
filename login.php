@@ -8,14 +8,24 @@
     <title>login</title>
 </head>
 <body>
-    <form class="form-login" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"> <!-- Form for logging in -->
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email">
+    <img class="vormpje" src="./media/vorm.png" alt="vormpje">
+    
+    <img class="logo" src="./media/oceaanblauw.png" alt="Logo Conneco">
 
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password">
-        <a href="resetPassword.php"> Forgot Password?</a>
-        <button type="submit" class="btn">Log In</button>
+    <form class="form-login" method="post" > <!-- Form for logging in / HIER STOND EEN ACTION MET PHP CODE -->
+       
+        <div class="input-login">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" value="" required />
+
+          <label for="password">Wachtwoord</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+
+        <a href="resetPassword.php"> Wachtwoord vergeten?</a>
+        <button type="submit" class="btn">Inloggen</button>
+
+        <a class="register" href="signup.php">Heb je nog geen account? Registreer je dan hier.</a>
     </form>
 </body>
 </html>
