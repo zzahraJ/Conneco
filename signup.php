@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Registreren</title>
+  <title>signup</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 
@@ -13,8 +13,10 @@
  
 
   <div class="form">
+
+  <img class="vormpje" src="./media/vorm.png" alt="vormpje">
     
-  <img src="./media/oceaanblauw.png" alt="Logo Conneco">
+  <img class="logo" src="./media/oceaanblauw.png" alt="Logo Conneco">
 
      <div class="form-signup">
       <form method="post">
@@ -35,7 +37,8 @@
           <input type="password" id="password" name="password" required />
         </div>
 
-        <input type="submit" value="Registreren" class="btn"/>
+        <button type="submit" class="btn">Registreren</button>
+        
       </form>
     </div>
   </div>
