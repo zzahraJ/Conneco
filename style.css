@@ -1,0 +1,140 @@
+body{ /* dit is de code voor elke body text als je die aanroept in de code */
+  font-family: Barlow Semi Condensed;
+  src: url(https://fonts.google.com/specimen/Barlow+Semi+Condensed?query=barl);
+  color: black;  
+  font-weight: 100;
+  background-color: #FFFFFF; 
+ 
+}
+
+h1 { /* dit is de code voor elke h1 als je die aanroept in de code */
+  font-family: Mukta Malar;
+  src: url(https://fonts.google.com/specimen/Nunitohttps://fonts.google.com/specimen/Mukta+Malar?query=Mukta+?query=nun);
+  color: black;  
+  background-color: #FFFFFF; 
+ 
+}
+
+
+h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
+  font-family: Oswald;
+  src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
+  color: black;  
+  background-color: #FFFFFF; 
+  border-radius: 8px;
+}
+
+.vormpje{
+  width: 375px;
+  height: 282px;
+  margin-top: -3em;
+  margin-left: -3em;
+ 
+}
+
+/* code sign up */
+
+.logo {
+  width: 200px;
+  height: 40px;
+  margin: 0 auto 20px;
+  display: block;
+  padding-top: 6em;
+
+}
+
+
+.text-signup{
+  width: 250px;
+  display: block; 
+  margin: 0 auto 30px;
+  text-align: center;
+
+    
+}
+
+.input-signup{
+  width: 250px;
+  display: block; 
+  margin: 0 auto 30px;
+  margin-top: 50px;
+  
+}
+
+.input-signup label{
+  width: 250px;
+  display: block; 
+  margin: 5 auto ;
+}
+
+.input-signup input{
+  width: 300px;
+  display: block; 
+  margin: 0 auto ;
+}
+
+
+
+.btn{ /* dit is de code voor elke button je moet de classe btn gebruiken en dan krijgt dit dezelfde opmaak */
+  font-family: Oswald;
+  src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
+  color: #FFFFFF;  
+  background-color: #3150C4;
+  width: 250px;
+  display: block; 
+  border: 8px;
+  margin: 0 auto 10px;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 2em;
+  
+}
+
+/* code login */
+
+.form-login{
+  width: 550px;
+  display: block; 
+  margin: 0 auto 30px;
+  padding: 100px;
+  margin-top: 50px;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  
+}
+
+.input-login label{
+  width: 300px;
+  display: block; 
+  margin: 5 auto 30px;
+  margin-left: 120px;
+  padding-top: 1em;
+}
+
+.input-login input{
+  width: 300px;
+  display: block; 
+  margin: 5 auto 30px;
+  margin-left: 120px;
+}
+
+.form-login a {
+  width: 300px;
+  display: block; 
+  margin: 5 auto 30px;
+  margin-left: 120px;
+  text-decoration: none;
+  color: #3150C4;
+}
+
+.register{
+  width: 300px;
+  display: block; 
+  margin: 5 auto 30px;
+  margin-left: 120px;
+  text-decoration: none;
+  color: #3150C4;
+  margin-top: 6em;
+}
+
