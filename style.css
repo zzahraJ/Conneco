@@ -138,3 +138,21 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   margin-top: 6em;
 }
 
+.hexagon {
+  width: 200px;
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hex-img {
+  width: 100%;
+  height: auto;
+  transform: rotate(-1deg) scale(1.15);
+  object-fit: cover;
+  object-position: center;
+}
+
+
