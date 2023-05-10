@@ -20,7 +20,7 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   font-family: Oswald;
   src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
   color: black;  
-  border-radius: 8px;
+  
 }
 
 .nav-container{
@@ -228,16 +228,44 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   margin-top: -5.6em;
 }
 
-.projects{
-  width: 300px;
-  display: block; 
-  margin: 5 auto 30px;
-  margin-left: 120px;
+.lopende-projecten{
+  
 }
 
-.info {
-  width: 300px;
-  display: block; 
-  margin: 5 auto 30px;
-  margin-left: 120px;
+.projecten{
+  position: relative;
+  /* background-color: red; */
+}
+
+
+.project{
+  display: inline-block;
+  position: relative;
+  border: 1px solid #3150C4;
+  border-radius: 8px ;
+  margin-left: 20em;
+  margin-right: 40em;
+  padding-left: 1em;
+  padding-right: 2em;
+  font-size: 14px;
+  margin-top: 0.5em;
+}
+
+.project p{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.eigen-projecten{
+  position: relative;
+  display: inline-block;
+  background-color: #24F2F2;
+  margin-left: 60em;
+}
+
+.eigen-projecten h2{
+  position: relative;
+  background-color: blue;
+  margin-top: -75em;
+
 }
