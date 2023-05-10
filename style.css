@@ -20,9 +20,42 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   font-family: Oswald;
   src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
   color: black;  
-  background-color: #FFFFFF; 
   border-radius: 8px;
 }
+
+.nav-container{
+  width: 20%;
+  height: 100vh;
+  display: inline-block;
+  flex-direction: column;
+  position: relative;
+  margin-top: -70em;
+  margin-left: 1em;
+  color: white;
+  
+}
+
+.nav-container a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-container p:hover{
+  color: #24F2F2;
+}
+
+.nav-container p{
+  color: white;
+  text-decoration: none;
+  font-family: Oswald;
+  src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
+  font-weight: bold;
+  font-size: 26px;
+}
+
+
+
+
 
 .vormpje{
   width: 375px;
@@ -156,3 +189,55 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
 }
 
 
+/* code dashbord */
+
+.logo-wit {
+  width: 150px;
+  height: 30px;
+  display: block;
+
+}
+
+.row{
+  background-color: rgb(49,80,196);
+  width: 170px;
+  height: 895px;
+  margin-top: -3.1em;
+ 
+ 
+}
+
+.search{
+  background-color: #000000;
+  width: 1440;
+  height: 30px;
+  padding: 10px;
+  margin-left: 10.6em;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: -30em;
+}
+
+.logo-wit{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  margin-left: -2.5em;
+  margin-top: -5.6em;
+}
+
+.projects{
+  width: 300px;
+  display: block; 
+  margin: 5 auto 30px;
+  margin-left: 120px;
+}
+
+.info {
+  width: 300px;
+  display: block; 
+  margin: 5 auto 30px;
+  margin-left: 120px;
+}

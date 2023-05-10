@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>Werknemers</title>
 </head>
     <body>
            
         <nav class="search">
             <div id="menu">
-            <a href="search.php">Zoeken</a>
+                <a href="search.php">Zoeken</a>
+                <input type="text" name="search" placeholder="Zoeken">
             </div>
         </nav>
 
@@ -20,13 +22,18 @@
         </div>
 
         <div class="nav-container">
-            <a href="dashboard.php"><h2>Dashboard</h2></a> 
-            <a href="werknemers.php"><h2>Werknemers</h2></a>
-            <a href="categorieën.php"><h2>Categorieën</h2></a>
-            <a href="Badges.php"><h2>Badges</h2></a>
-            <a href="Profiel.php"><h2>Profiel</h2></a>
-            <a href="Instellingen.php"><h2>Instellingen</h2></a>
+            <a href="dashboard.php"><P>Dashboard</P></a> 
+            <a href="werknemers.php"><p>Werknemers</p></a>
+            <a href="categorieën.php"><p>Categorieën</p></a>
+            <a href="badges.php"><p>Badges</p></a>
+            <a href="profiel.php"><p>Profiel</p></a>
+            <a href="instellingen.php"><p>Instellingen</p></a>
         </div>
+
+        
+
+
+   
     
     </body>
 </html>
