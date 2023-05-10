@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="info-profiel">
-        <h2>Voornaam<h2>
+        <h2>oornaam<h2>
         <input type="email" id="email" name="email" value="Julie" required />
         <h2>Achternaam<h2>
         <input type="email" id="email" name="email" value="De Vos" required />
