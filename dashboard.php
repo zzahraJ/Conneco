@@ -9,15 +9,20 @@
 </head>
 <body>
 
-    <nav class="search">
-        <div id="menu">
-        <a href="search.php">Zoeken</a>
-        </div>
-    </nav>
+        <nav class="search">
+            <div id="menu">
+                <a href="search.php">Zoeken</a>
+                <input type="text" name="search" placeholder="Zoeken">
+            </div>
+        </nav>
 
     <div class="image-container">
         <img class="row" src="./media/Blauwe-balk.png" alt="blauwe balk">
         <img class="logo-wit" src="./media/logo-wit.png" alt="Logo Conneco">
+        
+        <div class="lopende-projecten">
+            <h2>Lopende Projecten</h2>
+        </div>
     </div>
 
     <div class="nav-container">
@@ -29,17 +34,50 @@
         <a href="instellingen.php"><p>Instellingen</p></a>
     </div>
 
-    <div class="project">
-        <h2>Project naam:</h2>
-    </div>
    
 
-    <div class="projects">
-        <h2>Lopende Projecten</h2>
+    
+
+    <div class="eigen-projecten">
+        <h2>Eigen Projecten</h2>
     </div>
 
-    <div class="info">
-    <h2>Algemene informatie</h2>
+    <!-- hier moet php code in om de naam van het project weer te geven -->
+    <div class="projecten">
+        <div class="project"> 
+            <h2>Project naam:</h2>
+            <p>Geld te beschikking stellen voor klanten</p>  <!-- hier moet je php code schrijven -->
+            <h2>Werknemers die hieraan werken:</h2>
+            <p>Thomas Peeters    Julie De Vos    Mark Mezel</p> <!-- hier moet je php code schrijven -->
+        </div>
+
+        <div class="project"> 
+            <h2>Project naam:</h2>
+            <p>Geld te beschikking stellen voor klanten</p>  <!-- hier moet je php code schrijven -->
+            <h2>Werknemers die hieraan werken:</h2>
+            <p>Thomas Peeters    Julie De Vos    Mark Mezel</p> <!-- hier moet je php code schrijven -->
+        </div>
+    
+
+        <div class="project"> 
+            <h2>Project naam:</h2>
+            <p>Geld te beschikking stellen voor klanten</p>  <!-- hier moet je php code schrijven -->
+            <h2>Werknemers die hieraan werken:</h2>
+            <p>Thomas Peeters    Julie De Vos    Mark Mezel</p> <!-- hier moet je php code schrijven -->
+        </div>
+    
+
+        <div class="project"> 
+            <h2>Project naam:</h2>
+            <p>Geld te beschikking stellen voor klanten</p>  <!-- hier moet je php code schrijven -->
+            <h2>Werknemers die hieraan werken:</h2>
+            <p>Thomas Peeters    Julie De Vos    Mark Mezel</p> <!-- hier moet je php code schrijven -->
+        </div>
+    </div>
+   
+    <div class="deadlines">
+        <h2>Volgende Deadline</h2>
+        <h2>Werknemers die hieraan werken</h2>
     </div>
     
 </body>

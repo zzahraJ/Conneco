@@ -8,11 +8,13 @@
     <title>Badges</title>
 </head>
     <body>
-    <nav class="search">
-        <div id="menu">
-        <a href="search.php">Zoeken</a>
-        </div>
-    </nav>
+   
+        <nav class="search">
+            <div id="menu">
+                <a href="search.php">Zoeken</a>
+                <input type="text" name="search" placeholder="Zoeken">
+            </div>
+        </nav>
 
     <div class="image-container">
         <img class="row" src="./media/Blauwe-balk.png" alt="blauwe balk">
