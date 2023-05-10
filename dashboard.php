@@ -21,12 +21,16 @@
     </div>
 
     <div class="nav-container">
-        <a href="dashboard.php"><h2>Dashboard</h2></a> 
-        <a href="werknemers.php"><h2>Werknemers</h2></a>
-        <a href="categorieën.php"><h2>Categorieën</h2></a>
-        <a href="Badges.php"><h2>Badges</h2></a>
-        <a href="Profiel.php"><h2>Profiel</h2></a>
-        <a href="Instellingen.php"><h2>Instellingen</h2></a>
+        <a href="dashboard.php"><P>Dashboard</P></a> 
+        <a href="werknemers.php"><p>Werknemers</p></a>
+        <a href="categorieën.php"><p>Categorieën</p></a>
+        <a href="badges.php"><p>Badges</p></a>
+        <a href="profiel.php"><p>Profiel</p></a>
+        <a href="instellingen.php"><p>Instellingen</p></a>
+    </div>
+
+    <div class="project">
+        <h2>Project naam:</h2>
     </div>
    
 
