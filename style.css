@@ -186,7 +186,7 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
 }
 
 
-/* code dashbord */
+/* code dashbord admin NAV MOET AANGEPAST WORDEN VOOR NORMALE USERS */
 
 .logo-wit {
   width: 150px;
@@ -298,24 +298,23 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
 
 
 
-/* code badges */
+/* code badges admin maar kan ook voor de normale user */
 
 .omgedraaid-vormpje img{
   width: 400px;
   height: 300px;
   margin-left: 85em;
   margin-top: -10em;
- 
 }
 
 .badges{
   margin-left: 20em;
   margin-top: -50em;
 }
-/* width 403px height 567px */
+
+/* de foto's nog aanpassen naar de echte foto's */
 .badges img{
   width: 25px;
   height:  35px;
-  
 }
 
