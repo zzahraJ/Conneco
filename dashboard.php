@@ -19,10 +19,7 @@
     <div class="image-container">
         <img class="row" src="./media/Blauwe-balk.png" alt="blauwe balk">
         <img class="logo-wit" src="./media/logo-wit.png" alt="Logo Conneco">
-        
-        <div class="lopende-projecten">
-            <h2>Lopende Projecten</h2>
-        </div>
+         
     </div>
 
     <div class="nav-container">
@@ -34,9 +31,10 @@
         <a href="instellingen.php"><p>Instellingen</p></a>
     </div>
 
-   
+    <div class="lopende-projecten">
+            <h2>Lopende Projecten</h2>
+        </div>
 
-    
 
     <div class="eigen-projecten">
         <h2>Eigen Projecten</h2>

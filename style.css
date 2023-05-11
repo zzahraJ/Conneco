@@ -54,9 +54,6 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
 }
 
 
-
-
-
 .vormpje{
   width: 375px;
   height: 282px;
@@ -215,10 +212,25 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   margin-left: 10.6em;
 }
 
+/* .image-container {
+  width: 530px;
+  height: 445px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  
+} */
+
+
 .image-container {
+  width: 200px;
+  height: 850px;
   position: relative;
   margin-bottom: -30em;
 }
+
 
 .logo-wit{
   position: absolute;
@@ -229,6 +241,17 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
 }
 
 .lopende-projecten{
+  position: relative;
+  display: inline-block;
+  background-color: #24F2F2;
+  margin-left: 20em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 2em;
+  font-size: 14px;
+  border-radius: 8px ;
+  border: 1px solid #3150C4;
   
 }
 
@@ -269,3 +292,26 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   margin-top: -75em;
 
 }
+
+/* code is nog niet klaar dashbord */
+
+
+
+
+/* code badges */
+
+.omgedraaid-vormpje img{
+  width: 400px;
+  height: 300px;
+  margin-left: 80em;
+  margin-top: 12em;
+ 
+}
+
+.badges{
+  margin-left: 20em;
+  margin-top: -50em;
+}
+
+
+
