@@ -303,8 +303,8 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
 .omgedraaid-vormpje img{
   width: 400px;
   height: 300px;
-  margin-left: 80em;
-  margin-top: 12em;
+  margin-left: 85em;
+  margin-top: -10em;
  
 }
 
@@ -312,6 +312,10 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   margin-left: 20em;
   margin-top: -50em;
 }
-
-
+/* width 403px height 567px */
+.badges img{
+  width: 25px;
+  height:  35px;
+  
+}
 
