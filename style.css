@@ -78,9 +78,7 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   width: 250px;
   display: block; 
   margin: 0 auto 30px;
-  text-align: center;
-
-    
+  text-align: center;   
 }
 
 .input-signup{
@@ -118,7 +116,11 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   border-radius: 8px;
   text-align: center;
   margin-top: 2em;
-  
+}
+
+.btn a{
+  text-decoration: none;
+  color:#FFFFFF ;
 }
 
 /* code login */
@@ -303,8 +305,8 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
 .omgedraaid-vormpje img{
   width: 400px;
   height: 300px;
-  margin-left: 85em;
-  margin-top: -10em;
+  margin-left: 95em;
+  margin-top: -20em;
 }
 
 .badges{
@@ -318,3 +320,48 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   height:  35px;
 }
 
+/* code instellingen admin */
+
+.instellingen{
+  width: 250px;
+  display: block; 
+  /* margin: 0 auto 30px; */
+  margin-left: 20em;
+  margin-top: -50em ;
+  
+}
+
+.instellingen label{
+  width: 250px;
+  display: block; 
+  margin: 10px;
+  padding: 0.5em;
+}
+
+.instellingen input{
+  width: 400px;
+  padding: 1em;
+  display: block; 
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.bewerken{
+  font-family: Oswald;
+  src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
+  color: #FFFFFF;  
+  background-color: #3150C4;
+  width: 250px;
+  display: block; 
+  border: 8px;
+  margin-left: 26em;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 6em;
+}
+
+.bewerken a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
