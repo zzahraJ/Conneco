@@ -365,3 +365,44 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   text-decoration: none;
   color: #FFFFFF;
 }
+
+/* code categorieën */
+
+.categorieën{ 
+  margin-left: 20em;
+  margin-top: -55em ;
+}
+
+/* .checkbox-container {
+  position: relative;
+  margin-left: 20em;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.checkbox-label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: -1;
+} */
+
+.checkbox-container{
+  display: flex;
+  margin-left: 20em;
+  flex-direction: column;
+  margin-left: 20em;
+  /* background-color: #24F2F2; */
+  
+  }
+
+.checkbox-label {
+  margin-left: 20px;
+  /* background-color: #3150C4; */
+}
+
