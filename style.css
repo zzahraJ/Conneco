@@ -366,6 +366,13 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   color: #FFFFFF;
 }
 
+.profielfoto img{
+  width: 310px;
+  height: 305px;
+  margin-left: 60em;
+  margin-top: -35em;
+}
+
 /* code categorieën */
 
 .categorieën{ 
