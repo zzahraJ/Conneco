@@ -33,13 +33,13 @@
 
     <div class="info-profiel">
         <h2>Voornaam<h2>
-        <input type="email" id="email" name="email" value="Julie" required />
+        <input type="email" id="email" name="voornaam" value="Julie" required />
         <h2>Achternaam<h2>
-        <input type="email" id="email" name="email" value="De Vos" required />
+        <input type="email" id="email" name="achternaam" value="De Vos" required />
         <h2>Email adres<h2>
         <input type="email" id="email" name="email" value="julie.devos@gmail.com" required />
         <h2>Wachtwoord<h2>
-        <input type="email" id="email" name="email" value="Kippenbout2023" required />
+        <input type="email" id="email" name="wachtwoord" value="Kippenbout2023" required />
     </div>
 
     <div class="hexagon">
