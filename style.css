@@ -54,9 +54,6 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
 }
 
 
-
-
-
 .vormpje{
   width: 375px;
   height: 282px;
@@ -81,9 +78,7 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   width: 250px;
   display: block; 
   margin: 0 auto 30px;
-  text-align: center;
-
-    
+  text-align: center;   
 }
 
 .input-signup{
@@ -121,7 +116,11 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   border-radius: 8px;
   text-align: center;
   margin-top: 2em;
-  
+}
+
+.btn a{
+  text-decoration: none;
+  color:#FFFFFF ;
 }
 
 /* code login */
@@ -189,7 +188,7 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
 }
 
 
-/* code dashbord */
+/* code dashbord admin NAV MOET AANGEPAST WORDEN VOOR NORMALE USERS */
 
 .logo-wit {
   width: 150px;
@@ -215,10 +214,25 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   margin-left: 10.6em;
 }
 
+/* .image-container {
+  width: 530px;
+  height: 445px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  
+} */
+
+
 .image-container {
+  width: 200px;
+  height: 850px;
   position: relative;
   margin-bottom: -30em;
 }
+
 
 .logo-wit{
   position: absolute;
@@ -229,6 +243,17 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
 }
 
 .lopende-projecten{
+  position: relative;
+  display: inline-block;
+  background-color: #24F2F2;
+  margin-left: 20em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 2em;
+  font-size: 14px;
+  border-radius: 8px ;
+  border: 1px solid #3150C4;
   
 }
 
@@ -269,3 +294,122 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   margin-top: -75em;
 
 }
+
+/* code is nog niet klaar dashbord */
+
+
+
+
+/* code badges admin maar kan ook voor de normale user */
+
+.omgedraaid-vormpje img{
+  width: 400px;
+  height: 300px;
+  margin-left: 95em;
+  margin-top: -20em;
+}
+
+.badges{
+  margin-left: 20em;
+  margin-top: -50em;
+}
+
+/* de foto's nog aanpassen naar de echte foto's */
+.badges img{
+  width: 25px;
+  height:  35px;
+}
+
+/* code instellingen admin */
+
+.instellingen{
+  width: 250px;
+  display: block; 
+  /* margin: 0 auto 30px; */
+  margin-left: 20em;
+  margin-top: -50em ;
+  
+}
+
+.instellingen label{
+  width: 250px;
+  display: block; 
+  margin: 10px;
+  padding: 0.5em;
+}
+
+.instellingen input{
+  width: 400px;
+  padding: 1em;
+  display: block; 
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.bewerken{
+  font-family: Oswald;
+  src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
+  color: #FFFFFF;  
+  background-color: #3150C4;
+  width: 250px;
+  display: block; 
+  border: 8px;
+  margin-left: 26em;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 6em;
+}
+
+.bewerken a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.profielfoto img{
+  width: 310px;
+  height: 305px;
+  margin-left: 60em;
+  margin-top: -35em;
+}
+
+/* code categorieën */
+
+.categorieën{ 
+  margin-left: 20em;
+  margin-top: -55em ;
+}
+
+/* .checkbox-container {
+  position: relative;
+  margin-left: 20em;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.checkbox-label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: -1;
+} */
+
+.checkbox-container{
+  display: flex;
+  margin-left: 20em;
+  flex-direction: column;
+  margin-left: 20em;
+  /* background-color: #24F2F2; */
+  
+  }
+
+.checkbox-label {
+  margin-left: 20px;
+  /* background-color: #3150C4; */
+}
+
