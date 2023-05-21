@@ -30,7 +30,7 @@
         </div>
 
         <div class="profiel">
-          <label for="naam">naam</label>
+          <label for="naam">Naam</label>
           <input type="text" id="naam" name="naam" value="Julie" required />
 
           <label for="functie">Functie</label>
@@ -46,9 +46,33 @@
           <input type="text" id="bio" name="bio" value="Een vrolijke 27-jarige" required />
         </div>
 
-        <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
+        <div class="Foto"><img src="./media/julie.png" alt="profielfoto"></div>
         <div class="bewerken"><a href="profielBewerkenUser.php">Bewerken</a></div>
         <div class="uitloggen"><a href="logout.php">Uitloggen</a></div>
+
+        <div class="tags">
+            <h2>Tags</h2>
+            <ul>
+                <li>Klantvriedelijkheid</li>
+                <li>Administratief</li>
+                <li>Microsoft Office</li>
+                <li>Taalvaardigheid</li>
+            </ul>
+        </div>
+
+        <div class="certificaten">
+            <h2>Certificaten</h2>
+            <ul>
+                <li>Bachelor Bedrijfskunde</li>
+                <li>Workshop Communicatie</li>
+                <li>Bijscholing Microsoft Office</li>
+            </ul>
+        </div>
+
+        
+        <div class="skillsBtn"><a href="skills.php">Mijn skills</a></div>
+
+
         <!-- <button type="submit" class="btn">Bewerken</button> -->
 
         <!-- <div class="profiel">

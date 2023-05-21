@@ -50,5 +50,27 @@
         <div class="bewerken"><a href="profielBewerkenUser.php">Bewerken</a></div>
         <div class="uitloggen"><a href="logout.php">Uitloggen</a></div>
         <!-- <button type="submit" class="btn">Bewerken</button> -->
+
+        <div class="tags">
+            <h2>Tags</h2>
+            <ul>
+                <li>Klantvriedelijkheid</li>
+                <li>Administratief</li>
+                <li>Microsoft Office</li>
+                <li>Taalvaardigheid</li>
+            </ul>
+        </div>
+
+        <div class="certificaten">
+            <h2>Certificaten</h2>
+            <ul>
+                <li>Bachelor Bedrijfskunde</li>
+                <li>Workshop Communicatie</li>
+                <li>Bijscholing Microsoft Office</li>
+            </ul>
+        </div>
+
+        
+        <div class="skillsBtn"><a href="skills.php">Mijn skills</a></div>
 </body>
 </html>
