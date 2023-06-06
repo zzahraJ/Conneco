@@ -28,6 +28,7 @@
 <header>
 <link rel="stylesheet" href="style.css"/>
   <nav class="nav">
+
     <a href="logout">Log out?</a>
   </nav>    
 </header>
@@ -85,7 +86,7 @@
     
     <! <img class="logo" src="./media/logo-zwart.png" alt="Logo Conneco"> -
 
-    <form class="form-login" method="post" > 
+
        
         <div class="input-login">
           <label for="email">Email</label>
