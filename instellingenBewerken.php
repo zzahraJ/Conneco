@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <title>Instellingen</title>
+    <title>Instellingen Bewerken</title>
 </head>
     <body>
-        
         <nav class="search">
             <div id="menu">
                 <a href="search.php">Zoeken</a>
@@ -46,16 +45,13 @@
 
           <label for="password">Wachtwoord</label>
           <input type="password" id="password" name="password" required />
+
+          <label for="password">Wachtwoord Wijzigen</label>
+          <input type="password" id="password" name="password" required />
         </div>
 
         <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
-        <div class="bewerken"><a href="instellingenBewerken.php">Bewerken</a></div>
-        <!-- <button type="submit" class="btn">Bewerken</button> -->
-
-
-
-
-
+        <div class="bewerken"><a href="instellingen.php">Opslaan</a></div>
 
     </body>
 </html>

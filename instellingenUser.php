@@ -23,10 +23,9 @@
 
         <div class="nav-container">
             <a href="dashboard.php"><P>Dashboard</P></a> 
-            <a href="werknemers.php"><p>Werknemers</p></a>
-            <a href="categorieën.php"><p>Categorieën</p></a>
-            <a href="badges.php"><p>Badges</p></a>
+            <a href="chat.php"><p>Chat</p></a>
             <a href="profiel.php"><p>Profiel</p></a>
+            <a href="badges.php"><p>Badges</p></a>
             <a href="instellingen.php"><p>Instellingen</p></a>
         </div>
     
@@ -49,13 +48,8 @@
         </div>
 
         <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
-        <div class="bewerken"><a href="instellingenBewerken.php">Bewerken</a></div>
+        <div class="bewerken"><a href="instellingenBewerkenUser.php">Bewerken</a></div>
         <!-- <button type="submit" class="btn">Bewerken</button> -->
-
-
-
-
-
-
+        
     </body>
 </html>

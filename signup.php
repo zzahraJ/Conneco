@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>signup</title>
   <link rel="stylesheet" href="style.css"/>
+  <title>signup</title>
+  
 </head>
 
 <body>
@@ -15,8 +16,7 @@
   <div class="form">
 
   <img class="vormpje" src="./media/vorm.png" alt="vormpje">
-    
-  <img class="logo" src="./media/oceaanblauw.png" alt="Logo Conneco">
+  <img class="logo" src="./media/logo-zwart.png" alt="logo Conneco">
 
      <div class="form-signup">
       <form method="post">
