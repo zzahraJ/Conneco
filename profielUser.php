@@ -47,7 +47,7 @@
         </div>
 
         <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
-        <div class="bewerken"><a href="instellingenBewerken.php">Bewerken</a></div>
+        <div class="bewerken"><a href="profielBewerken.php">Bewerken</a></div>
         <div class="bewerken"><a href="logout.php">Uitloggen</a></div>
 
 
