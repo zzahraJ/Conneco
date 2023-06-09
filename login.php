@@ -32,7 +32,7 @@
 <div id="app">
     <form action="login.php" method="post">
     
-        <h1>Log in to Conneco</h1>
+        <h1>Conneco</h1>
         <nav class="nav--login">
             <a href="#" id="tabLogin">Log in</a>
             <a href="#" id="tabSignIn">Sign up</a>
