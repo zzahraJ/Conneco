@@ -53,6 +53,92 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   font-size: 26px;
 }
 
+
+
+#app
+{
+  max-width: 500px;
+  margin: 2em auto;
+  border: 1px solid #3150C4;
+  padding: 1em;
+  border-radius: 8px;
+ 
+}
+
+h1
+{
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.alert
+{
+  background-color: #EFEEF1;
+  border: 1px solid #E91C24;
+  border-radius: 5px;
+  border-left-width: 5px;
+  padding: 1em;
+}
+
+.nav--login
+{
+  padding: 0.3em;
+}
+
+.nav--login a
+{
+  color:#24F2F2;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.form
+{
+  padding: 0.5em;
+}
+
+.form label
+{
+  display: block;
+  margin-top: 0.5em;
+}
+
+.form input
+{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav--login
+{
+  border-bottom: 2px solid #3150C4;
+  margin-bottom: 1em;
+}
+
+
+.nav a
+{
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+a.loggedIn
+{
+  flex: 0 1 240px;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+
+.hidden
+{
+  display: none;
+}
+
+/* einde code login Joris */
+
 .vormpje{
   width: 375px;
   height: 282px;
