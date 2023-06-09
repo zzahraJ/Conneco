@@ -28,7 +28,6 @@
 <header>
 <link rel="stylesheet" href="style.css"/>
   <nav class="nav">
-
     <a href="logout">Log out?</a>
   </nav>    
 </header>

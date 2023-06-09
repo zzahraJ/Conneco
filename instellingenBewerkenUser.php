@@ -23,9 +23,9 @@
         <div class="nav-container">
             <a href="dashboardUser.php"><P>Dashboard</P></a> 
             <a href="chat.php"><p>Chat</p></a>
-            <a href="profiel.php"><p>Profiel</p></a>
-            <a href="badges.php"><p>Badges</p></a>
-            <a href="instellingen.php"><p>Instellingen</p></a>
+            <a href="profielUser.php"><p>Profiel</p></a>
+            <a href="badgesUser.php"><p>Badges</p></a>
+            <a href="instellingenUser.php"><p>Instellingen</p></a>
         </div>
     
         <div class="omgedraaid-vormpje">
