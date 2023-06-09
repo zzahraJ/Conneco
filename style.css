@@ -3,8 +3,7 @@ body{ /* dit is de code voor elke body text als je die aanroept in de code */
   src: url(https://fonts.google.com/specimen/Barlow+Semi+Condensed?query=barl);
   color: black;  
   font-weight: 100;
-  background-color: #FFFFFF; 
- 
+  background-color: #FFFFFF;
 }
 
 h1 { /* dit is de code voor elke h1 als je die aanroept in de code */
@@ -12,27 +11,22 @@ h1 { /* dit is de code voor elke h1 als je die aanroept in de code */
   src: url(https://fonts.google.com/specimen/Nunitohttps://fonts.google.com/specimen/Mukta+Malar?query=Mukta+?query=nun);
   color: black;  
   background-color: #FFFFFF; 
- 
 }
 
 
 h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   font-family: Oswald;
   src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
-  color: black;  
-  
+  color: black;
 }
 
 .nav-container{
   width: 20%;
-  height: 100vh;
   display: inline-block;
   flex-direction: column;
-  position: relative;
-  margin-top: -70em;
-  margin-left: 1em;
+  padding-top: -10em;
+  padding-left: 1em;
   color: white;
-  
 }
 
 .nav-container a{
@@ -52,8 +46,6 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   font-weight: bold;
   font-size: 26px;
 }
-
-
 
 #app
 {
@@ -156,6 +148,7 @@ body
 {
   padding: 0;
   margin: 0;
+  height: 100%;
 }
 
 #app
@@ -273,8 +266,6 @@ a.loggedIn
   margin: 0 auto ;
 }
 
-
-
 .btn{ /* dit is de code voor elke button je moet de classe btn gebruiken en dan krijgt dit dezelfde opmaak */
   font-family: Oswald;
   src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
@@ -342,130 +333,126 @@ a.loggedIn
   margin-top: 6em;
 }
 
-.hexagon {
-  width: 200px;
-  height: 220px;
-  position: relative;
-  overflow: hidden;
-  background-color: #ffffff;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
-
-.hex-img {
-  width: 100%;
-  height: auto;
-  transform: rotate(-1deg) scale(1.15);
-  object-fit: cover;
-  object-position: center;
-}
-
-
 /* code dashbord admin NAV MOET AANGEPAST WORDEN VOOR NORMALE USERS */
+.body-content {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+}
 
-.logo-wit {
-  width: 150px;
-  height: 30px;
-  display: block;
+.column{
+  flex: 1;
+}
+
+.sidebar {
+  width: 15%;
+  background-color: #3150C4;
+  display: flex;
+  flex-direction: column;
 
 }
 
-.row{
-  background-color: rgb(49,80,196);
-  width: 170px;
-  height: 895px;
-  margin-top: -3.1em;
+.main {
+  flex: 1;
  
- 
+  display: flex;
+  flex-direction: column;
 }
 
-.search{
-  background-color: #000000;
-  width: 1440;
-  height: 30px;
-  padding: 10px;
-  margin-left: 10.6em;
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: black;
 }
 
-/* .image-container {
-  width: 530px;
-  height: 445px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  
-} */
-
-
-.image-container {
-  width: 200px;
-  height: 850px;
-  position: relative;
-  margin-bottom: -30em;
+.content {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
-.logo-wit{
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  margin-left: -2.5em;
-  margin-top: -5.6em;
+.content h2 {
+  margin-left: 100px;
 }
-
-.lopende-projecten{
-  position: relative;
-  display: inline-block;
-  background-color: #24F2F2;
-  margin-left: 20em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  padding-left: 1em;
-  padding-right: 2em;
-  font-size: 14px;
-  border-radius: 8px ;
-  border: 1px solid #3150C4;
-  
-}
-
-.projecten{
-  position: relative;
-  /* background-color: red; */
-}
-
 
 .project{
-  display: inline-block;
-  position: relative;
+  align-items: center;
   border: 1px solid #3150C4;
-  border-radius: 8px ;
-  margin-left: 20em;
-  margin-right: 40em;
-  padding-left: 1em;
-  padding-right: 2em;
-  font-size: 14px;
-  margin-top: 0.5em;
+  border-radius: 8px;
+  margin: 15px;
+  margin-inline: 100px;
+  background-color:lavender;
 }
 
-.project p{
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+.project h3, .project p{
+  margin-left: 10px;
 }
 
-.eigen-projecten{
-  position: relative;
-  display: inline-block;
-  background-color: #24F2F2;
-  margin-left: 60em;
+.deadlines{
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+  margin: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.eigen-projecten h2{
-  position: relative;
-  background-color: blue;
-  margin-top: -75em;
-
+.deadlines h3, .deadlines p{
+  margin-left: 10px;
 }
+
+.gebruikers{
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+  margin: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.gebruikers h2, .gebruikers h3, .gebruikers p{
+  text-align: start;
+  margin-left: 10px;
+}
+
+.column-users-container {
+  display: flex;
+}
+
+.column-users{
+  flex-basis: 50%;
+}
+
+.gebruikers-image {
+  text-align: center;
+  margin: 10px;
+}
+
+.gebruikers-image img {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar .image-container {
+  width: 200px; /* Custom width */
+  height: auto;
+  margin: 10px;
+}
+
+.sidebar .image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .image-container img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+} */
+
+/* .gebruikers p{
+  margin-top: -2em;
+  margin-left: 15em;
+} */
 
 /* code is nog niet klaar dashbord */
 
