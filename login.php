@@ -70,9 +70,6 @@
 </div>
 
 
-
-
-
 <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,9 +83,9 @@
     <img class="vormpje" src="./media/vorm.png" alt="vormpje">
     <img class="logo" src="./media/logo-zwart.png" alt="logo Conneco">
     
-    <!-- <img class="logo" src="./media/logo-zwart.png" alt="Logo Conneco"> -->
+    <! <img class="logo" src="./media/logo-zwart.png" alt="Logo Conneco"> -
 
-    <form class="form-login" method="post" > <!- Form for logging in / HIER STOND EEN ACTION MET PHP CODE -
+
        
         <div class="input-login">
           <label for="email">Email</label>
@@ -104,4 +101,4 @@
         <a class="register" href="signup.php">Heb je nog geen account? Registreer je dan hier.</a>
     </form>
 </body>
-</html>
+</html> -->

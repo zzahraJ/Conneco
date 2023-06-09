@@ -29,6 +29,24 @@
             <a href="instellingenUser.php"><p>Instellingen</p></a>
         </div>
 
+
+    <div class="info-profiel">
+        <h2>Voornaam<h2>
+        <input type="email" id="email" name="email" value="Julie" required />
+        <h2>Achternaam<h2>
+        <input type="email" id="email" name="email" value="De Vos" required />
+        <h2>Email adres<h2>
+        <input type="email" id="email" name="email" value="julie.devos@gmail.com" required />
+        <h2>Wachtwoord<h2>
+        <input type="email" id="email" name="email" value="Kippenbout2023" required />
+    </div>
+
+    <div class="hexagon">
+        <img src="./media/Julie.png" alt="Photo" class="hex-img">
+    </div>
+
+    <button type="submit" class="btn">Bewerken</button>
+
         <div class="profiel">
           <label for="firstname">Voornaam</label>
           <input type="text" id="firstname" name="firstname" value="" required />
@@ -49,6 +67,7 @@
         <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
         <div class="bewerken"><a href="profielBewerken.php">Bewerken</a></div>
         <div class="bewerken"><a href="logout.php">Uitloggen</a></div>
+
 
 
 </body>

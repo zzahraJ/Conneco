@@ -30,7 +30,7 @@
         </div>
 
         <div class="badges">
-            <img class="labels" src="./media/person-badge.png" alt="badge"><p><strong>Nieuwkomer:</strong>Deze badge verdien je wanneer je aagemeld bent op het platform.</p>
+            <img class="labels" src="./media/person-badge.png" alt="badge"><p><strong>Nieuwkomer:</strong>Deze badge verdien je wanneer je aagemeld bent op het platform.</p
             <img class="labels" src="./media/schild.png" alt="badge"><p><strong>Actieve gebruiker:</strong>Deze badge verdien je door 3 keer per week aan te melden op het platform.</p>
             <img class="labels" src="./media/handen.png" alt="badge"><p><strong>Helper:</strong>Deze badge verdien je door anderen op het platform te helpen.</p>
             <img class="labels" src="./media/mannetjes.png" alt="badge"><p><strong>Mentor:</strong>Deze badge verdien je doordat andere gebruikers je beoordelen als mentor op het platform.</p>
@@ -45,4 +45,5 @@
 
     
     </body>
-</html>
+
+</html
