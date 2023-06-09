@@ -147,6 +147,93 @@ a.loggedIn
  
 }
 
+*
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  padding: 0;
+  margin: 0;
+}
+
+#app
+{
+  max-width: 500px;
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: 10px;
+
+  border: 1px solid #3150C4;
+}
+
+h1
+{
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.alert
+{
+  background-color: #EFEEF1;
+  border: 1px solid #E91C24;
+  border-radius: 5px;
+  border-left-width: 5px;
+  padding: 1em;
+}
+
+.form
+{
+  padding: 0.5em;
+}
+
+.form label
+{
+  display: block;
+  margin-top: 0.5em;
+}
+
+.form input
+{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav a
+{
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+a.loggedIn
+{
+  flex: 0 1 240px;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+
+.nav a
+{
+  color: #B4C4E7;
+}
+
+.nav a:hover
+{
+  color: #fff;
+}
+
+.hidden
+{
+  display: none;
+}
+
+/* einde code login Joris */
+
+
 /* code sign up */
 
 .logo {
@@ -496,5 +583,56 @@ a.loggedIn
 .checkbox-label {
   margin-left: 20px;
   /* background-color: #3150C4; */
+}
+
+.profiel{
+  width: 250px;
+  display: block; 
+  /* margin: 0 auto 30px; */
+  margin-left: 20em;
+  margin-top: -60em ;
+  
+}
+
+.profiel label{
+  width: 250px;
+  display: block; 
+  margin: 10px;
+  padding: 0.5em;
+}
+
+.profiel input{
+  width: 400px;
+  padding: 1em;
+  display: block; 
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.bewerken{
+  font-family: Oswald;
+  src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
+  color: #FFFFFF;  
+  background-color: #3150C4;
+  width: 250px;
+  display: block; 
+  border: 8px;
+  margin-left: 26em;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 6em;
+}
+
+.bewerken a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.profielfoto img{
+  width: 310px;
+  height: 305px;
+  margin-left: 60em;
+  margin-top: -35em;
 }
 
