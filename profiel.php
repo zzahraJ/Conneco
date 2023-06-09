@@ -9,11 +9,12 @@
 </head>
 <body>
   
-    <nav class="search">
-        <div id="menu">
-        <a href="search.php">Zoeken</a>
-        </div>
-    </nav>
+        <nav class="search">    
+            <div id="menu">
+                <a href="search.php">Zoeken</a>
+                <input type="text" name="search" placeholder="Zoeken">
+            </div>
+        </nav>
 
     <div class="image-container">
         <img class="row" src="./media/Blauwe-balk.png" alt="blauwe balk">
@@ -31,7 +32,7 @@
    
 
     <div class="info-profiel">
-        <h2>Voornaam<h2>
+        <h2>oornaam<h2>
         <input type="email" id="email" name="email" value="Julie" required />
         <h2>Achternaam<h2>
         <input type="email" id="email" name="email" value="De Vos" required />
