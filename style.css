@@ -29,7 +29,7 @@ h2 { /* dit is de code voor elke h2 als je die aanroept in de code */
   display: inline-block;
   flex-direction: column;
   position: relative;
-  margin-top: -70em;
+  margin-top: -10em;
   margin-left: 1em;
   color: white;
   
@@ -342,24 +342,6 @@ a.loggedIn
   margin-top: 6em;
 }
 
-.hexagon {
-  width: 200px;
-  height: 220px;
-  position: relative;
-  overflow: hidden;
-  background-color: #ffffff;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
-
-.hex-img {
-  width: 100%;
-  height: auto;
-  transform: rotate(-1deg) scale(1.15);
-  object-fit: cover;
-  object-position: center;
-}
-
-
 /* code dashbord admin NAV MOET AANGEPAST WORDEN VOOR NORMALE USERS */
 
 .logo-wit {
@@ -372,7 +354,7 @@ a.loggedIn
 .row{
   background-color: rgb(49,80,196);
   width: 170px;
-  height: 895px;
+  height: 915px;
   margin-top: -3.1em;
  
  
@@ -381,28 +363,16 @@ a.loggedIn
 .search{
   background-color: #000000;
   width: 1440;
-  height: 30px;
+  height: 50px;
   padding: 10px;
   margin-left: 10.6em;
 }
-
-/* .image-container {
-  width: 530px;
-  height: 445px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  
-} */
-
 
 .image-container {
   width: 200px;
   height: 850px;
   position: relative;
-  margin-bottom: -30em;
+  margin-bottom: -35em;
 }
 
 
@@ -411,27 +381,31 @@ a.loggedIn
   top: 50px;
   left: 50px;
   margin-left: -2.5em;
-  margin-top: -5.6em;
+  margin-top: -4.7em;
 }
 
-.lopende-projecten{
+/* .lopende-projecten{
   position: relative;
   display: inline-block;
-  background-color: #24F2F2;
-  margin-left: 20em;
-  margin-top: 0.5em;
+  margin-left: 5em;
+  margin-top: -25em;
   margin-bottom: 0.5em;
   padding-left: 1em;
   padding-right: 2em;
   font-size: 14px;
   border-radius: 8px ;
   border: 1px solid #3150C4;
-  
+} */
+
+.lopende-projecten h2{
+  margin-top: -40em;
+  margin-left: 10em;
 }
 
 .projecten{
   position: relative;
-  /* background-color: red; */
+  margin-top: -112em;
+  margin-left: -2em;
 }
 
 
@@ -456,15 +430,49 @@ a.loggedIn
 .eigen-projecten{
   position: relative;
   display: inline-block;
-  background-color: #24F2F2;
   margin-left: 60em;
+  margin-top: -110em;
+  
 }
 
 .eigen-projecten h2{
   position: relative;
-  background-color: blue;
   margin-top: -75em;
 
+}
+
+.deadlines{
+  position: relative;
+  display: inline-block;
+  margin-left: 60em;
+  margin-top: -180em;
+  padding: 1em;
+  border: 1px solid #3150C4;
+  border-radius: 8px ;
+}
+
+.gebruikers{
+  position: relative;
+  display: inline-block;
+  margin-left: 60em;
+  /* margin-top: -150em; */
+  padding: 1em;
+  border: 1px solid #3150C4;
+  border-radius: 8px ;
+  margin-top: -120em;
+}
+
+
+.gebruikers img{
+  width: 30px;
+  height: 30px;
+  margin-left: 10em;
+  margin-top: -10em;
+}
+
+.gebruikers p{
+  margin-top: -2em;
+  margin-left: 15em;
 }
 
 /* code is nog niet klaar dashbord */

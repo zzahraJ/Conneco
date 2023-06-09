@@ -73,8 +73,22 @@
     </div>
    
     <div class="deadlines">
-        <h2>Volgende Deadline</h2>
-        <h2>Werknemers die hieraan werken</h2>
+        <h3>Volgende Deadline</h3>
+            <p>Project Meuryl start 02/06/2023 - einde 20/06/2023</p>
+        <h3>Werknemers die hieraan werken</h3>
+            <p>Sarah Verbot (projectleider) Kurt Gins (krediet) Mark Mezel (administratief)</p>
+    </div>
+
+    <div class="gebruikers">
+        <h2>Actieve gebruikers</h2>
+            <h3>Tuur Speer</h3> <img src="./media/beker.png" alt="beker"> <p>Expert</p>
+            <h3>Thomas Peeters</h3><img src="./media/person-badge.png" alt="beker"> <p>Nieuwkomer</p>
+            <h3>Patricia Derwaas</h3><img src="./media/handen.png" alt="beker"> <p>Helper</p>
+            <h3>Jef Bertrant</h3><img src="./media/schild.png" alt="beker"> <p>Actieve gebruiker</p>
+            <h3>Kurt Gins</h3><img src="./media/mannetjes.png" alt="beker"> <p>Mentor</p>
+            <h3>Peter Segers</h3><img src="./media/beker.png" alt="beker"> <p>Expert</p>
+            <h3>Ruben Vermaelen</h3><img src="./media/broche.png" alt="beker"> <p>Teamspeler</p>
+            <h3>Dina Vermina</h3><img src="./media/kroon.png" alt="beker"> <p>Vaardigheidskoning</p>
     </div>
     
 </body>
