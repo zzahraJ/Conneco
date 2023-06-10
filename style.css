@@ -481,31 +481,22 @@ a.loggedIn
 
 /* code instellingen admin */
 
-.instellingen{
+.column-instellingen{
   width: 250px;
   display: block; 
   /* margin: 0 auto 30px; */
   margin-left: 20em;
   margin-top: -50em;
+  background-color: red;
 
 }
 
-.instellingen label{
-  width: 250px;
-  display: block; 
-  margin: 10px;
-  padding: 0.5em;
-
+.content-instellingen{
+  margin-left: 20em;
+ margin-top: 20em; 
+ background-color: red;
 }
 
-.instellingen input{
-  width: 400px;
-  padding: 1em;
-  display: block; 
-  margin: 10px;
-  border-radius: 8px;
-  border-color: #3150C4;
-}
 
 .bewerken{
   font-family: Oswald;
