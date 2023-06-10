@@ -529,7 +529,7 @@ a.loggedIn
   width: 310px;
   height: 305px;
   margin-left: 60em;
-  margin-top: -35em;
+  margin-top: -5em;
 }
 
 /* code categorieën */
@@ -572,12 +572,23 @@ a.loggedIn
   /* background-color: #3150C4; */
 }
 
-.profiel{
+.info-profiel{
+  margin-left: 20em;
+  padding: 1em; 
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+  background-color: red;
+}
+
+
+
+
+/* .profiel{
   width: 250px;
   display: block; 
-  /* margin: 0 auto 30px; */
+  /* margin: 0 auto 30px; *
   margin-left: 20em;
-  margin-top: -60em ;
+  margin-top: 10em ;
   
 }
 
@@ -594,7 +605,7 @@ a.loggedIn
   display: block; 
   margin: 10px;
   border-radius: 8px;
-}
+} */
 
 .bewerken{
   font-family: Oswald;
@@ -620,6 +631,15 @@ a.loggedIn
   width: 310px;
   height: 305px;
   margin-left: 60em;
-  margin-top: -35em;
+  margin-top: -8em;
 }
 
+.tags{
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+}
+
+.certificaten{
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+}
