@@ -49,8 +49,8 @@
             </div>
 
             <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
-            <div class="bewerken"><a href="instellingenBewerkenUser.php">Bewerken</a></div>
-            <div class="bewerken"><a href="login.php">Account verwijderen</a></div>
+            <div class="Btn"><a href="instellingenBewerkenUser.php">Bewerken</a></div>
+            <div class="Btn"><a href="login.php">Account verwijderen</a></div>
         </div>
     </div>  
   </body>
