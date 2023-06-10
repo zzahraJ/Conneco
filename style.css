@@ -531,7 +531,7 @@ a.loggedIn
   width: 310px;
   height: 305px;
   margin-left: 60em;
-  margin-top: -5em;
+  margin-top: -10em;
 }
 
 /* code categorieën */
@@ -636,13 +636,6 @@ a.loggedIn
   color: #FFFFFF;
 }
 
-
-.Foto img{
-  width: 200px;
-  height: 400px;
-  margin-left: 20em;
-}
-
 .uitloggen{
   font-family: Oswald;
   src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
@@ -681,3 +674,48 @@ a.loggedIn
   border-radius: 8px;
 }
 
+/* code eigen skills */
+
+.content-skills div{
+  margin-left: 8em;
+  padding: 1em;
+  margin-top: 5em;
+  font-size: 1.2em;
+}
+
+.content-skills h2{
+  margin-left: 8em;
+  margin-top:5em;
+}
+
+.skills{
+  margin: 15px;
+  margin-left: 100px;
+  margin-right: 400px;
+  margin-top: 10em;
+
+}
+
+.skills h2, .skills h3, .skills p{
+  text-align: start;
+  margin-left: 10px;
+}
+
+.column-skills-container {
+  display: flex;
+}
+
+.column-skills{
+  flex-basis: 50%;
+}
+
+.skills-image {
+  text-align: center;
+  margin: 10px;
+}
+
+.skills-image img {
+  margin: 0 auto;
+  width: 218.75px;  /* 1750px */
+  height: 32.5px; /* 260px */
+}
