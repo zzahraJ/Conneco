@@ -53,7 +53,7 @@
 
             <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
             <div class="bewerken"><a href="profielBewerken.php">Bewerken</a></div>
-            <div class="bewerken"><a href="logout.php">Uitloggen</a></div> 
+            <div class="bewerken"><a href="logout.php">Uitloggen</a></div>
 
             <div class="tags">
                 <p>Klantvriedelijkheid</p>
@@ -75,8 +75,27 @@
 
 
 
+        <div class="tags">
+            <h2>Tags</h2>
+            <ul>
+                <li>Klantvriedelijkheid</li>
+                <li>Administratief</li>
+                <li>Microsoft Office</li>
+                <li>Taalvaardigheid</li>
+            </ul>
+        </div>
 
+        <div class="certificaten">
+            <h2>Certificaten</h2>
+            <ul>
+                <li>Bachelor Bedrijfskunde</li>
+                <li>Workshop Communicatie</li>
+                <li>Bijscholing Microsoft Office</li>
+            </ul>
+        </div>
 
+        
+        <div class="bewerken"><a href="skills.php">Mijn skills</a></div>
 
 </body>
 </html>

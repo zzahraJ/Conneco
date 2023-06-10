@@ -486,8 +486,8 @@ a.loggedIn
   display: block; 
   /* margin: 0 auto 30px; */
   margin-left: 20em;
-  margin-top: -50em ;
-  
+  margin-top: -50em;
+
 }
 
 .instellingen label{
@@ -495,6 +495,7 @@ a.loggedIn
   display: block; 
   margin: 10px;
   padding: 0.5em;
+
 }
 
 .instellingen input{
@@ -503,6 +504,7 @@ a.loggedIn
   display: block; 
   margin: 10px;
   border-radius: 8px;
+  border-color: #3150C4;
 }
 
 .bewerken{
@@ -572,6 +574,16 @@ a.loggedIn
   /* background-color: #3150C4; */
 }
 
+
+/* code profieluser */
+
+.profiel{
+  width: 250px;
+  display: block; 
+  /* margin: 0 auto 30px; */
+  margin-left: 20em;
+  margin-top: -50em ;
+
 .info-profiel{
   margin-left: 20em;
   padding: 1em; 
@@ -581,15 +593,12 @@ a.loggedIn
 }
 
 
-
-
 /* .profiel{
   width: 250px;
   display: block; 
-  /* margin: 0 auto 30px; *
+  /* margin: 0 auto 30px; */
   margin-left: 20em;
-  margin-top: 10em ;
-  
+  margin-top: 10em ;  
 }
 
 .profiel label{
@@ -605,7 +614,7 @@ a.loggedIn
   display: block; 
   margin: 10px;
   border-radius: 8px;
-} */
+}
 
 .bewerken{
   font-family: Oswald;
@@ -627,6 +636,34 @@ a.loggedIn
   color: #FFFFFF;
 }
 
+
+.Foto img{
+  width: 200px;
+  height: 400px;
+  margin-left: 20em;
+}
+
+.uitloggen{
+  font-family: Oswald;
+  src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
+  color: #FFFFFF;  
+  background-color: #3150C4;
+  width: 250px;
+  display: block; 
+  border: 8px;
+  margin-left: 26em;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 6em;
+ 
+}
+
+.uitloggen a{
+  text-decoration: none;
+  color: white;
+}
+
 .profielfoto img{
   width: 310px;
   height: 305px;
@@ -643,3 +680,4 @@ a.loggedIn
   border: 1px solid #3150C4;
   border-radius: 8px;
 }
+
