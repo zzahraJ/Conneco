@@ -483,18 +483,43 @@ a.loggedIn
 
 .column-instellingen{
   width: 250px;
-  display: block; 
+  display: inline-block; 
   /* margin: 0 auto 30px; */
-  margin-left: 20em;
-  margin-top: -50em;
-  background-color: red;
+  margin-left: 2em;
+  margin-top: 5em;
+}
 
+.column-instellingen input{
+  width: 550px;
+  padding: 1em;
+  display: inline-block; 
+  border-radius: 8px;
 }
 
 .content-instellingen{
-  margin-left: 20em;
- margin-top: 20em; 
- background-color: red;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-top: 2em; 
+}
+
+.Btn{
+  font-family: Oswald;
+  src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
+  color: #FFFFFF;  
+  background-color: #3150C4;
+  width: 250px;
+  display: block; 
+  border: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-left: 23em;
+}
+
+.Btn a{
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 
