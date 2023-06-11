@@ -535,7 +535,7 @@ a.loggedIn
   padding: 10px;
   border-radius: 8px;
   text-align: center;
-  margin-top: 6em;
+  margin-top: 8em;
 }
 
 .bewerken a{
@@ -592,46 +592,6 @@ a.loggedIn
 
 
 /* code profieluser */
-
-.profiel{
-  width: 250px;
-  display: block; 
-  /* margin: 0 auto 30px; */
-  margin-left: 20em;
-  margin-top: -50em ;
-
-.info-profiel{
-  margin-left: 20em;
-  padding: 1em; 
-  border: 1px solid #3150C4;
-  border-radius: 8px;
-  background-color: red;
-}
-
-
-/* .profiel{
-  width: 250px;
-  display: block; 
-  /* margin: 0 auto 30px; */
-  margin-left: 20em;
-  margin-top: 10em ;  
-}
-
-.profiel label{
-  width: 250px;
-  display: block; 
-  margin: 10px;
-  padding: 0.5em;
-}
-
-.profiel input{
-  width: 400px;
-  padding: 1em;
-  display: block; 
-  margin: 10px;
-  border-radius: 8px;
-}
-
 .bewerken{
   font-family: Oswald;
   src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
@@ -673,22 +633,17 @@ a.loggedIn
   color: white;
 }
 
-.profielfoto img{
+.profielfoto {
   width: 310px;
   height: 305px;
   margin-left: 60em;
-  margin-top: -8em;
+  margin-top: -em;
 }
 
-.tags{
-  border: 1px solid #3150C4;
-  border-radius: 8px;
+.column-profielBewerken p{
+  background-color: red;
 }
 
-.certificaten{
-  border: 1px solid #3150C4;
-  border-radius: 8px;
-}
 
 /* code eigen skills */
 
