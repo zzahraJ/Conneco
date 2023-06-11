@@ -76,10 +76,7 @@
                     </div>
                 </div>
                 <div class="foto"><img src="./media/julie.png" alt="profielfoto"></div>
-                <div class="buttons">
-                    <div class="Btn"><a href="profielBewerkenUser.php">Bewerken</a></div>
-                    <div class="Btn"><a href="login.php">Account verwijderen</a></div>
-                </div>
+                <div class="Btn"><a href="profielBewerkenUser.php">Bewerken</a></div>
                 <div class="Btn"><a href="skills.php">Mijn skills</a></div>
             </div>
         </div>
