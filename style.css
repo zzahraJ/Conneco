@@ -748,29 +748,185 @@ a.loggedIn
   margin-top: -5px;
 }
 
+/* Chat */
 
-/* .skillsaanduiden {
+.personen{
+  align-items: center;
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+  margin: 30px;
+  margin-inline: 12px;
+  background-color:lavender;
+  padding-bottom: 45em;
+}
+
+.personen h3{
+  margin-left: 10px;
+}
+
+.chat{
+  align-items: center;
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+  margin: 30px;
+  margin-inline: 12px;
+  background-color:#EFEEF1;
+  padding-bottom: 45em;
+}
+
+.chat h3{
+  margin-left: 10px;
+}
+
+.column-chat-container{
+  display: flex;
+}
+
+.mensenZoeken{
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+  margin: 15px;
+  margin-right: 650px;
+  padding-bottom: 580px ;
+}
+
+.mensenZoeken h2, .mensenZoeken h3, .mensenZoeken p{
+  text-align: start;
+  margin-left: 10px;
+}
+
+.mensenZoeken-image {
+  text-align: center;
+  margin: 10px;
+}
+
+.mensenZoeken-image img {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+
+.mensenChatten{
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+  margin-top: -52.5em;
+  margin-left: 640px;
+  margin-right: 20px;
+  padding-bottom: 145px ;
+}
+
+.mensenChatten h2, .mensenChatten h3, .mensenChatten p{
+  text-align: start;
+  margin-left: 10px;
+}
+
+.mensenChatten-image {
+  text-align: center;
+  margin: 10px;
+}
+
+.mensenChatten-image img {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+
+#gesprek input{
+  padding: 0.8em;
+  width: 600px;
+  border-radius: 8px;
+  border: 2px solid #3150C4;
+  background-color: #3150C4;
+}
+
+.chat-container {
+  height: 600px;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.message-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
+  margin-right: 300px;
 }
 
-.column-skillsaanduiden-container {
+.message-container1 {
   display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 300px;
 }
 
-.column-skillsaanduiden {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.message {
+  border: 1px solid #24F2F2;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
-input[type="checkbox"] {
-  margin-right: 5px;
+.message1 {
+  border: 1px solid #3150C4;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
-.text {
-  margin-left: 5px;
-} */
+.timestamp {
+  font-size: 0.8em;
+  color: gray;
+  margin-top: 5px;
+}
 
+.input-container {
+  margin-top: 10px;
+}
+
+.input-container input[type="text"] {
+  width: 80%;
+  padding: 5px;
+}
+
+.input-container button {
+  padding: 5px 10px;
+  background-color: #3150C4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+#zoeken{
+  margin-top: 20px;
+}
+
+#zoeken input{
+  padding: 0.8em;
+  width: 500px;
+  margin-left: 50px;
+  border-radius: 8px;
+  border: 2px solid #3150C4;
+}
+
+#menu{
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+#menu input{
+  padding: 0.5em;
+  width: 500px;
+  margin-left: 50em;
+  border-radius: 8px;
+  border: 2px solid #3150C4;
+}
 
 
