@@ -35,22 +35,68 @@
             </div>
         
             <div class="mensenZoeken">
-                    <div id="zoeken">
-                        <input type="text" name="search" placeholder="Zoeken">
-                    </div>
-                <div class="column-chat-container">
-                    <div class="column-users">
-                        <p class="gebruikers-image"><img src="./media/julie.png" alt="foto">Sarah Verbot</p>
-                        <p class="gebruikers-image"><img src="./media/thomas.png" alt="foto">Robin Gillis</p>
-                        <p class="gebruikers-image"><img src="./media/julie.png" alt="foto">Laura Peeters</p>
-                        <p class="gebruikers-image"><img src="./media/thomas.png" alt="foto">Lucas Janssens</p>
+                <div id="zoeken">
+                    <input type="text" name="search" placeholder="Zoeken">
+                </div>
+
+                <div class="chat-list">
+                    <div class="chat-item" >
+                        <div class="gebruikers-image"><img src="./media/julie.png" alt="foto">Sarah Verbot</div>
+                        <div class="chat-info">
+                        <div class="status">Online</div>
+                        </div>
                     </div>
 
-                    <div class="column-users">
-                        <p class="gebruikers-image"><img src="./media/julie.png" alt="foto"></p>
-                        <p class="gebruikers-image"><img src="./media/thomas.png" alt="foto"></p>
-                        <p class="gebruikers-image"><img src="./media/julie.png" alt="foto"></p>
-                        <p class="gebruikers-image"><img src="./media/thomas.png" alt="foto"></p>
+                    <div class="chat-item" >
+                        <div class="gebruikers-image"><img src="./media/thomas.png" alt="foto">Thomas Peeters</div>
+                        <div class="chat-info">
+                        <div class="status">Online</div>
+                        </div>
+                    </div>
+
+                    <div class="chat-item" >
+                        <div class="gebruikers-image"><img src="./media/thomas.png" alt="foto">Lucas Wouters</div>
+                        <div class="chat-info">
+                        <div class="status">Online</div>
+                        </div>
+                    </div>
+
+                    <div class="chat-item" >
+                        <div class="gebruikers-image"><img src="./media/julie.png" alt="foto">Laura Smout</div>
+                        <div class="chat-info">
+                        <div class="status">Online</div>
+                        </div>
+                    </div>
+
+                    <div class="chat-item" >
+                        <div class="gebruikers-image"><img src="./media/thomas.png" alt="foto">Robin Smedts</div>
+                        <div class="chat-info">
+                        <div class="status">Online</div>
+                        </div>
+                    </div>
+
+
+                    <div class="chat-item" >
+                        <div class="gebruikers-image"><img src="./media/thomas.png" alt="foto">Jonas Van Damme</div>
+                        <div class="chat-info">
+                        <div class="status">Online</div>
+                        </div>
+                    </div>
+
+
+                    <div class="chat-item" >
+                        <div class="gebruikers-image"><img src="./media/julie.png" alt="foto">Lisa Albrechts</div>
+                        <div class="chat-info">
+                        <div class="status">Online</div>
+                        </div>
+                    </div>
+
+
+                    <div class="chat-item" >
+                        <div class="gebruikers-image"><img src="./media/julie.png" alt="foto">Jill Vinck</div>
+                        <div class="chat-info">
+                        <div class="status">Online</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -105,41 +151,11 @@
 
                         <div class="input-container">
                         <input type="text" placeholder="Type your message..." />
-                        <button>Send</button>
+                        <button>Verzend</button>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-            <!-- <div class="content">
-                <div class="column">
-                    <div class="personen"> 
-                      
-                        <div class="column-users">
-                            <p class="gebruikers-image"><img src="./media/julie.png" alt="beker">Sarah Verbot</p>
-                            <p class="gebruikers-image"><img src="./media/thomas.png" alt="beker">Robin Gillis</p>
-                            <p class="gebruikers-image"><img src="./media/julie.png" alt="beker">Laura Peeters</p>
-                            <p class="gebruikers-image"><img src="./media/thomas.png" alt="beker">Lucas Janssens</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content">
-                        <h2></h2>
-                        <div class="column-users-container">
-                            <div class="column-users">
-                                <p class="gebruikers-image"><img src="./media/julie.png" alt="beker">Sarah Verbot</p>
-                                <input type="text" id="voornaam" name="voornaam" value="" required />
-                            </div>
-                        </div>
-                    </div>
-            </div> -->
         </div>
     </div>
     </body>
