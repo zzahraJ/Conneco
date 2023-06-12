@@ -7,49 +7,51 @@
     <link rel="stylesheet" href="style.css"/>
     <title>Instellingen</title>
 </head>
-    <body>
-        
-        <nav class="search">
-            <div id="menu">
-                <a href="search.php">Zoeken</a>
-                <input type="text" name="search" placeholder="Zoeken">
+   <body>
+    <div class="body-content">  
+        <div class="sidebar">
+            <div class="image-container">
+                <img class="logo-wit" src="./media/logo-wit.png" alt="Logo Conneco">
             </div>
-        </nav>
-
-        <div class="image-container">
-            <img class="row" src="./media/Blauwe-balk.png" alt="blauwe balk">
-            <img class="logo-wit" src="./media/logo-wit.png" alt="Logo Conneco">
+            
+            <div class="nav-container">
+                <a href="dashboardUser.php"><P>Dashboard</P></a> 
+                <a href="chat.php"><p>Chat</p></a>
+                <a href="profielUser.php"><p>Profiel</p></a>
+                <a href="badgesUser.php"><p>Badges</p></a>
+                <a href="instellingenUser.php"><p>Instellingen</p></a>
+            </div>
         </div>
-
-        <div class="nav-container">
-            <a href="dashboardUser.php"><P>Dashboard</P></a> 
-            <a href="chat.php"><p>Chat</p></a>
-            <a href="profielUser.php"><p>Profiel</p></a>
-            <a href="badgesUser.php"><p>Badges</p></a>
-            <a href="instellingenUser.php"><p>Instellingen</p></a>
-        </div>
-    
-        <div class="omgedraaid-vormpje">
-            <img src="./media/vorm-omgedraaid.png" alt="vormpje">
-        </div>
-
-        <div class="instellingen">
-          <label for="firstname">Voornaam</label>
-          <input type="text" id="firstname" name="firstname" value="" required />
-
-          <label for="lastname">Achternaam</label>
-          <input type="text" id="lastname" name="lastname" value="" required />
-
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" value="" required />
-
-          <label for="password">Wachtwoord</label>
-          <input type="password" id="password" name="password" required />
-        </div>
-
-        <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
-        <div class="bewerken"><a href="instellingenBewerkenUser.php">Bewerken</a></div>
-        <!-- <button type="submit" class="btn">Bewerken</button> -->
         
-    </body>
+        <div class="main">
+            <div class="header search">
+                <div id="menu">
+                    <a href="search.php">Zoeken</a>
+                    <input type="text" name="search" placeholder="Zoeken">
+                </div>
+            </div>
+            
+            <!-- hier moet php code in om de naam van het project weer te geven -->
+            <div class="content-instellingen">
+                <div class="column-instellingen">
+                    <h3>Voornaam<h3>
+                    <input type="text" id="voornaam" name="voornaam" value="" required />
+            
+                    <h3>Achternaam<h3>
+                    <input type="text" id="achternaam" name="achternaam" value="" required />
+            
+                    <h3>Email adres<h3>
+                    <input type="text" id="emailAdres" name="emailAdres" value="" required />
+            
+                    <h3>Wachtwoord<h3>
+                    <input type="text" id="wachtwoord" name="wachtwoord" value="" required />
+                </div>
+            </div>
+
+            <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
+            <div class="Btn"><a href="instellingenBewerkenUser.php">Bewerken</a></div>
+            <div class="Btn"><a href="login.php">Account verwijderen</a></div>
+        </div>
+    </div>  
+  </body>
 </html>
