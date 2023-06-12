@@ -136,7 +136,13 @@ a.loggedIn
   height: 282px;
   margin-top: -3em;
   margin-left: -3em;
- 
+}
+
+.vorm-omgedraaid{
+  margin-left: 60em;
+  width: 448px;
+  height: 338px;
+
 }
 
 *
@@ -716,3 +722,55 @@ a.loggedIn
   width: 218.75px;  /* 1750px */
   height: 32.5px; /* 260px */
 }
+
+.skillsaanduiden {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-skillsaanduiden-container {
+  display: flex;
+}
+
+.column-skillsaanduiden {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8em;
+}
+
+#myCheckbox {
+  margin-bottom: 5px;
+  margin-right: 200px;
+}
+
+.text {
+  margin-left: 40px;
+  margin-top: -5px;
+}
+
+
+/* .skillsaanduiden {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-skillsaanduiden-container {
+  display: flex;
+}
+
+.column-skillsaanduiden {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.text {
+  margin-left: 5px;
+} */
+
+
+
