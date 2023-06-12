@@ -274,11 +274,10 @@ a.loggedIn
   width: 250px;
   display: block; 
   border: 8px;
-  margin: 0 auto 10px;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
-  margin-top: 2em;
+  margin-top: -6em;
 }
 
 .btn a{
@@ -513,7 +512,7 @@ a.loggedIn
   padding: 10px;
   border-radius: 8px;
   text-align: center;
-  margin-top: 0.5em;
+  margin-top: 5em;
   margin-left: 23em;
 }
 
@@ -522,6 +521,17 @@ a.loggedIn
   color: #FFFFFF;
 }
 
+.foto img{
+  width: 184.5px; /* 738px */
+  height: 224.5px; /* 899px */
+  margin-left: 60em;
+  margin-top: -40em;
+}
+
+.foto{
+  width: 110px;
+  height: 205px;
+}
 
 .bewerken{
   font-family: Oswald;
@@ -535,7 +545,7 @@ a.loggedIn
   padding: 10px;
   border-radius: 8px;
   text-align: center;
-  margin-top: 6em;
+  margin-top: 8em;
 }
 
 .bewerken a{
@@ -543,11 +553,16 @@ a.loggedIn
   color: #FFFFFF;
 }
 
+.profielfoto{
+  width: 110px;
+  height: 205px;
+}
+
 .profielfoto img{
-  width: 310px;
-  height: 305px;
+  width: 184.5px; /* 738px */
+  height: 224.5px; /* 899px */
   margin-left: 60em;
-  margin-top: -10em;
+  margin-top: -20em;
 }
 
 /* code categorieën */
@@ -592,46 +607,6 @@ a.loggedIn
 
 
 /* code profieluser */
-
-.profiel{
-  width: 250px;
-  display: block; 
-  /* margin: 0 auto 30px; */
-  margin-left: 20em;
-  margin-top: -50em ;
-
-.info-profiel{
-  margin-left: 20em;
-  padding: 1em; 
-  border: 1px solid #3150C4;
-  border-radius: 8px;
-  background-color: red;
-}
-
-
-/* .profiel{
-  width: 250px;
-  display: block; 
-  /* margin: 0 auto 30px; */
-  margin-left: 20em;
-  margin-top: 10em ;  
-}
-
-.profiel label{
-  width: 250px;
-  display: block; 
-  margin: 10px;
-  padding: 0.5em;
-}
-
-.profiel input{
-  width: 400px;
-  padding: 1em;
-  display: block; 
-  margin: 10px;
-  border-radius: 8px;
-}
-
 .bewerken{
   font-family: Oswald;
   src: url(https://fonts.google.com/specimen/Nuhttps://fonts.google.com/specimen/Oswald?query=oswaldnito?query=nun);
@@ -673,22 +648,28 @@ a.loggedIn
   color: white;
 }
 
-.profielfoto img{
-  width: 310px;
-  height: 305px;
-  margin-left: 60em;
-  margin-top: -8em;
+
+.column-profile{
+  margin-top: -26em;
+  background-color: plum;
 }
 
 .tags{
   border: 1px solid #3150C4;
   border-radius: 8px;
+  margin-left:40em
 }
 
 .certificaten{
   border: 1px solid #3150C4;
   border-radius: 8px;
+  margin-left:40em
 }
+
+.column-profielBewerken p{
+  background-color: red;
+}
+
 
 /* code eigen skills */
 
