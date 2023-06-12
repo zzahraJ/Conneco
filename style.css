@@ -512,7 +512,7 @@ a.loggedIn
   padding: 10px;
   border-radius: 8px;
   text-align: center;
-  margin-top: 0.5em;
+  margin-top: 5em;
   margin-left: 23em;
 }
 
@@ -648,24 +648,22 @@ a.loggedIn
   color: white;
 }
 
-.column-profiel{
-  background-color: red;
- 
-}
 
 .column-profile{
-  margin-left: 3em;
-  margin-top: -20em;
+  margin-top: -26em;
+  background-color: plum;
 }
 
 .tags{
   border: 1px solid #3150C4;
   border-radius: 8px;
+  margin-left:40em
 }
 
 .certificaten{
   border: 1px solid #3150C4;
   border-radius: 8px;
+  margin-left:40em
 }
 
 .column-profielBewerken p{
