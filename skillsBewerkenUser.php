@@ -37,64 +37,64 @@
                     <div class="eigen-projecten">
                         <h2>Voeg skills toe aan jouw profiel.</h2>
                     </div>
-                   
-                 
+                    
+                    
                     <div class="skillsaanduiden">
                         <div class="column-skillsaanduiden-container">
-                        
+                            
                             <div class="column-skillsaanduiden">
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Project management</label>
-                            
+                                <label class="text">Project management</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Klantvriendelijkheid</label>
-                            
+                                <label class="text">Klantvriendelijkheid</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Financiële vaardigheden</label>
-                            
+                                <label class="text">Financiële vaardigheden</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Leiderschap vaardigheden</label>
-                            
+                                <label class="text">Leiderschap vaardigheden</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Analystische vaardigheden</label>
-                            
+                                <label class="text">Analystische vaardigheden</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Design vaardigheden</label>
-                            
+                                <label class="text">Design vaardigheden</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">management vaardigheden</label>
-                            
+                                <label class="text">management vaardigheden</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Communicatie vaardigheden</label>
-                            
+                                <label class="text">Communicatie vaardigheden</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Business vaardigheden</label>
-                            
+                                <label class="text">Business vaardigheden</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Microsoft Office</label>
-                            
+                                <label class="text">Microsoft Office</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Video vaardigheden</label>
-                            
+                                <label class="text">Video vaardigheden</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">HR vaardigeheden</label>
-                            
+                                <label class="text">HR vaardigeheden</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Administratieve vaardigheden</label>
-                            
+                                <label class="text">Administratieve vaardigheden</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Bedrijfsstrategieën</label>
-                            
+                                <label class="text">Bedrijfsstrategieën</label>
+                                
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="checkbox-label" for="myCheckbox">Taalvaardigheden</label>
-                            
+                                <label class="text">Taalvaardigheden</label>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bewerken"><a href="skills.php">Opslaan</a></div>
+            <div class="bewerken"><a href="profielUser.php">Opslaan</a></div>
         </div>
     </div>   
-    </body>
+</body>
 </html>
