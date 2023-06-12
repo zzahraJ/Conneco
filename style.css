@@ -1009,5 +1009,24 @@ a.loggedIn
   margin-top: 8px;
 }
 
+#menuutje{
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+#menuutje input{
+  padding: 0.5em;
+  width: 500px;
+  margin-left: 50em;
+  border-radius: 8px;
+  border: 2px solid #3150C4;
+}
+
+#menuutje a{
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+
 
 
