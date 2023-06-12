@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
-    <title>Instellingen</title>
+    <title>Instellingen Bewerken</title>
 </head>
-   <body>
+<body>
     <div class="body-content">  
         <div class="sidebar">
             <div class="image-container">
@@ -30,7 +30,6 @@
                     <a href="searchAdmin.php"><input></a>
                 </div>
             </div>
-            
             <!-- hier moet php code in om de naam van het project weer te geven -->
             <div class="content-instellingen">
                 <div class="column-instellingen">
@@ -45,12 +44,14 @@
             
                     <h3>Wachtwoord<h3>
                     <input type="text" id="wachtwoord" name="wachtwoord" value="" required />
+
+                    <h3>Wachtwoord Wijzigen<h3>
+                    <input type="text" id="wachtwoordWijzigen" name="wachtwoordWijzigen" value="" required />
                 </div>
             </div>
 
             <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
-            <div class="Btn"><a href="instellingenBewerkenAdmin.php">Bewerken</a></div>
-            <div class="Btn"><a href="login.php">Account verwijderen</a></div>
+            <div class="Btn"><a href="instellingen.php">Opslaan</a></div>
         </div>
     </div>  
   </body>
