@@ -53,9 +53,6 @@
                                 <label class="text">Financiële vaardigheden</label>
                                 
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="text">Leiderschap vaardigheden</label>
-                                
-                                <input type="checkbox" id="myCheckbox">
                                 <label class="text">Analystische vaardigheden</label>
                                 
                                 <input type="checkbox" id="myCheckbox">
@@ -71,12 +68,6 @@
                                 <label class="text">Business vaardigheden</label>
                                 
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="text">Microsoft Office</label>
-                                
-                                <input type="checkbox" id="myCheckbox">
-                                <label class="text">Video vaardigheden</label>
-                                
-                                <input type="checkbox" id="myCheckbox">
                                 <label class="text">HR vaardigeheden</label>
                                 
                                 <input type="checkbox" id="myCheckbox">
@@ -84,13 +75,7 @@
                                 
                                 <input type="checkbox" id="myCheckbox">
                                 <label class="text">Bedrijfsstrategieën</label>
-                                
-                                <input type="checkbox" id="myCheckbox">
-                                <label class="text">Taalvaardigheden</label>
-
-                                <input type="checkbox" id="myCheckbox">
-                                <label class="text">Klantvriendelijkheid</label>
-
+                        
                                 <input type="checkbox" id="myCheckbox">
                                 <label class="text">Wordpress</label>
 
@@ -110,23 +95,13 @@
                                 <label class="text">Sociale vaardigheden</label>
 
                                 <input type="checkbox" id="myCheckbox">
-                                <label class="text">Elektriciteit</label>
-
-                                <input type="checkbox" id="myCheckbox">
-                                <label class="text">Interieur</label>
-
-                                <input type="checkbox" id="myCheckbox">
                                 <label class="text">Sociale media vaardigheden</label>
-
-                                <input type="checkbox" id="myCheckbox">
-                                <label class="text">video vaardigeheden</label>
-                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bewerken"><a href="profiel.php">Opslaan</a></div>
+            <div class="bewerken"><a href=".php">Opslaan</a></div>
         </div>
     </div>   
 </body>
