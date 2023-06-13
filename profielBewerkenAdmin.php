@@ -54,7 +54,7 @@
                 </div>
                 
                 <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
-                <div class="bewerken"><a href="profielAdmin.php">Opslaan</a></div>
+                <div class="bewerken"><a href="profiel.php">Opslaan</a></div>
 
                 <div class="column-profielBewerken">
                     
