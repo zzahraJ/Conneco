@@ -32,14 +32,16 @@
         
             <div class="content">
                 <div class="column">
-                    <div class="project"> 
-                        <h3>Thomas Peeters</h3>
-                        <p>Digital Strategist</p>
-                        <p>J3 bureau 12</p>
-                        <p>Microsoft Office</p>
-                        <p>Adobe Illustrator</p>
-                        <p>Taalvaardigheid</p>
-                    </div>
+                    <a href="profielcollega.php">
+                        <div class="project"> 
+                            <h3>Thomas Peeters</h3>
+                            <p>Digital Strategist</p>
+                            <p>J3 bureau 12</p>
+                            <p>Microsoft Office</p>
+                            <p>Adobe Illustrator</p>
+                            <p>Taalvaardigheid</p>
+                        </div>
+                    </a>
 
                     <div class="project"> 
                         <h3>Thomas Janssens</h3>
