@@ -27,7 +27,7 @@
         <div class="main">
             <div class="header search">
                 <div id="menu">
-                    <a href="search.php"><input></a>
+                    <a href="searchAdmin.php"><input></a>
                 </div>
             </div>
         
