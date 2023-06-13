@@ -24,11 +24,11 @@
         </div>
         
         <div class="main">
-            <div class="header search">
-                <div id="menu">
-                    <a href="search.php"><input></a>
-                </div>
-            </div>
+        <div class="header search">
+                        <div id="menuutje">
+                            <a href="search.php"><input></a>
+                        </div>
+                    </div>
         
             <div class="content">
                 <div class="column">
