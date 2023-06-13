@@ -578,25 +578,6 @@ a.loggedIn
   margin-top: -55em ;
 }
 
-/* .checkbox-container {
-  position: relative;
-  margin-left: 20em;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.checkbox-label:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 20px;
-  height: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  z-index: -1;
-} */
-
 .checkbox-container{
   display: flex;
   margin-left: 20em;
@@ -604,13 +585,12 @@ a.loggedIn
   margin-left: 20em;
   /* background-color: #24F2F2; */
   
-  }
+}
 
 .checkbox-label {
   margin-left: 20px;
   /* background-color: #3150C4; */
 }
-
 
 /* code profieluser */
 .bewerken{
@@ -949,36 +929,6 @@ a.loggedIn
   padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #zoeken{
   margin-top: 20px;
 }
@@ -1027,6 +977,21 @@ a.loggedIn
   margin-top: 8px;
 }
 
+/* code werknemers */
+
+.werknemers{
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+  margin: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.werknemers h3, .werknemers p{
+  margin-left: 10px;
+}
 
 
 
