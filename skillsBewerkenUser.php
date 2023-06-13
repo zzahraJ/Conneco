@@ -27,11 +27,9 @@
         <div class="main">
             <div class="header search">
                 <div id="menu">
-                    <a href="search.php">Zoeken</a>
-                    <input type="text" name="search" placeholder="Zoeken">
+                    <a href="search.php"><input></a>
                 </div>
             </div>
-            
             <div class="content-aanduidenskills">
                 <div class="column-skillsaanduiden">
                     <div class="eigen-projecten">
