@@ -18,7 +18,7 @@
                 <div class="nav-container">
                     <a href="dashboard.php"><P>Dashboard</P></a> 
                     <a href="werknemers.php"><p>Werknemers</p></a>
-                    <a href="categoriën.php"><p>Categoriën</p></a>
+                    <a href="categoriën.php"><p>Categorieën</p></a>
                     <a href="profiel.php"><p>Profiel</p></a>
                     <a href="badges.php"><p>Badges</p></a>
                     <a href="instellingen.php"><p>Instellingen</p></a>
