@@ -805,8 +805,8 @@ a.loggedIn
   border: 1px solid #3150C4;
   border-radius: 8px;
   margin: 15px;
-  margin-right: 650px;
-  padding-bottom: 80px;
+  margin-right: 20px;
+  padding-bottom: 60px;
   background-color: lavender;
 }
 
@@ -830,7 +830,7 @@ a.loggedIn
   border: 1px solid #3150C4;
   border-radius: 8px;
   margin-top: -52.5em;
-  margin-left: 640px;
+  margin-left: 620px;
   margin-right: 20px;
   padding-bottom: 25px ;
 }
@@ -850,6 +850,22 @@ a.loggedIn
   width: 30px;
   height: 30px;
 }
+
+.column-text-container {
+  border: 1px solid #3150C4;
+  border-radius: 8px;
+  margin: 15px;
+  background-color: lavender;
+  padding-bottom: 65px;
+  
+}
+
+.column-text-container  p{
+  margin-left: 10px;
+}
+
+
+
 
 #gesprek input{
   padding: 0.8em;
@@ -923,9 +939,9 @@ a.loggedIn
 .chat-list {
   border-radius: 8px;
   padding: 10px;
-  padding-bottom: 130px;
-  max-width: 500px;
+  padding-bottom: 150px;
   margin-left: 50px;
+  max-width: 500px;
   margin-top: 40px;
   background-color: #B4C4E7;
 }
