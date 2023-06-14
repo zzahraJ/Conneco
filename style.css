@@ -123,10 +123,12 @@ a.loggedIn
   grid-template-columns: 1fr 3fr;
 }
 
+
 .hidden
 {
   display: none;
 }
+
 
 .vormpje{
   width: 375px;
@@ -226,9 +228,6 @@ a.loggedIn
 {
   display: none;
 }
-
-/* einde code login Joris */
-
 
 /* code sign up */
 
@@ -335,7 +334,7 @@ a.loggedIn
   margin-top: 6em;
 }
 
-/* code dashbord admin NAV MOET AANGEPAST WORDEN VOOR NORMALE USERS */
+
 .body-content {
   margin: 0;
   padding: 0;
@@ -1032,3 +1031,6 @@ a.loggedIn
 .werknemers h3, .werknemers p{
   margin-left: 10px;
 }
+
+
+
