@@ -53,9 +53,9 @@
                 </div>
                 
                 <div class="profielfoto"><img src="./media/julie.png" alt="profielfoto"></div>
-                <div class="bewerken"><a href="profielUser.php">Opslaan</a></div>
+                <div class="btns"><a href="profielUser.php">Opslaan</a></div>
 
-                <div class="column-profielBewerken">
+                <div class="column-profiel">
                     
                     <div class="tags">
                         <h3>Tags</h3>
