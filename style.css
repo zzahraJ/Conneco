@@ -123,13 +123,10 @@ a.loggedIn
   grid-template-columns: 1fr 3fr;
 }
 
-
 .hidden
 {
   display: none;
 }
-
-/* einde code login Joris */
 
 .vormpje{
   width: 375px;
@@ -447,22 +444,6 @@ a.loggedIn
   width: 100%;
   height: 100%;
 }
-
-/* .image-container img {
-  width: 30px;
-  height: 30px;
-  margin: 0 10px;
-} */
-
-/* .gebruikers p{
-  margin-top: -2em;
-  margin-left: 15em;
-} */
-
-/* code is nog niet klaar dashbord */
-
-
-
 
 /* code badges admin maar kan ook voor de normale user */
 
@@ -1051,6 +1032,3 @@ a.loggedIn
 .werknemers h3, .werknemers p{
   margin-left: 10px;
 }
-
-
-
