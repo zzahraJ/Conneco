@@ -46,23 +46,23 @@
                     
                     <div class="project"> 
                         <h3>Project naam:</h3>
-                        <p>Geld te beschikking stellen voor klanten</p>  <!-- hier moet je php code schrijven -->
+                        <p>Krediet brieven opstellen voor klanten</p>  <!-- hier moet je php code schrijven -->
                         <h3>Werknemers die hieraan werken:</h3>
-                        <p>Thomas Peeters    Julie De Vos    Mark Mezel</p> <!-- hier moet je php code schrijven -->
+                        <p>Sarah Verbot    Jucas Janssens    Lisa Gillis</p> <!-- hier moet je php code schrijven -->
                     </div>
                     
                     <div class="project"> 
                         <h3>Project naam:</h3>
-                        <p>Geld te beschikking stellen voor klanten</p>  <!-- hier moet je php code schrijven -->
+                        <p>Telefoneren met notarissen</p>  <!-- hier moet je php code schrijven -->
                         <h3>Werknemers die hieraan werken:</h3>
-                        <p>Thomas Peeters    Julie De Vos    Mark Mezel</p> <!-- hier moet je php code schrijven -->
+                        <p>Laura Torfs    Thomas Claes   Tim Wouters</p> <!-- hier moet je php code schrijven -->
                     </div>
                     
                     <div class="project"> 
                         <h3>Project naam:</h3>
-                        <p>Geld te beschikking stellen voor klanten</p>  <!-- hier moet je php code schrijven -->
+                        <p>Opzoeken doen bij hypotheek kantoren</p>  <!-- hier moet je php code schrijven -->
                         <h3>Werknemers die hieraan werken:</h3>
-                        <p>Thomas Peeters    Julie De Vos    Mark Mezel</p> <!-- hier moet je php code schrijven -->
+                        <p>Gerben De Haes    Louise Ham   Hanne Smets</p> <!-- hier moet je php code schrijven -->
                     </div>
                 </div>
                 <div class="column">
